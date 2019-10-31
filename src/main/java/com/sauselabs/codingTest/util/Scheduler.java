@@ -29,12 +29,8 @@ public class Scheduler {
     @Scheduled(cron = "0 0/5 * * * ?", zone = "Asia/Calcutta")
     public void repoForEveryFiveMinutes() {
 
-        final String url = environment.getProperty("health_check_url");
-
-        System.out.println("every five minutes");
-        LocalDateTime dateTime = LocalDateTime.now();
-
         LOGGER.info("Report: " + count.getReports().toString());
+        count.clearCounts();
     }
 
 
