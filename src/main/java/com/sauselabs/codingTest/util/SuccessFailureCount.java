@@ -29,6 +29,7 @@ public class SuccessFailureCount {
     public void clearCounts() {
         success = 0;
         failure = 0;
+        un_available = 0;
 
     }
 
