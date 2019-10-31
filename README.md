@@ -30,3 +30,12 @@ main points:
 4) created docker file
 5) it calculates number of success requests, failure request and un avaibale request and logs all to log file for every five minutes and resets its counts
 6) we can get last 5 minutes report by using above mentioned endpoint
+
+
+how to run in local environment
+-------------------------------
+
+1) import the code base in any java IDE (intellij or eclipse) as maven project, it may take some time to download spring boot depedencies
+2) right click on "CodingTestApplication" and run
+3) check logs in log files also in console
+4) use swagger or browser to test endpoint
