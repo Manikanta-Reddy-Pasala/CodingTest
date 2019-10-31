@@ -24,10 +24,10 @@
         </encoder>
     </appender>
 
-<!--    <root level="INFO">-->
-<!--        <appender-ref ref="ConsoleAppender"/>-->
-<!--        <appender-ref ref="FileAppender"/>-->
-<!--    </root>-->
+    <root level="INFO">
+        <appender-ref ref="ConsoleAppender"/>
+        <appender-ref ref="FileAppender"/>
+    </root>
 
     <springProfile name="dev">
         <root level="INFO">
